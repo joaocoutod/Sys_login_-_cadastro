@@ -1,0 +1,64 @@
+*{
+	box-sizing: border-box;
+}
+
+/*** LINHA ***
+.row::after {
+	content: "";
+    clear: both;
+    display: table;
+}
+
+/**** COLUNAS ****
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+	float: left;
+    padding: 15px;
+}
+@media screen and (max-width: 600px){
+	[class*="col-"]{
+		width: 100%;
+		float: none;
+		padding: 6px;
+	}
+}
+
+/**** CARTÃO ****
+.well {
+	padding: 20px;
+	background: #ffffff;
+	color: #000;
+	animation: zeroum 3s;
+}
+********/
+
+.col{
+    margin: 0 auto;
+    width: 450px;
+    height: 100%;
+    padding: 4px;
+}
+@media(max-width: 600px){.col{width: 100%;}}
+
+.well{
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.11); 
+    color: #fff;
+}
+@media(max-width: 600px){
+    .well{margin-top: 20px; margin-bottom: 0px;}
+}
